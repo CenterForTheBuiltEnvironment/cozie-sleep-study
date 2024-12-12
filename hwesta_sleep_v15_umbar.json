@@ -1,0 +1,3780 @@
+{
+    "survey_name": "Sleep (Umbar, v15)",
+    "survey_id": "hwesta_sleep_v15",
+    "survey": [
+        {
+            "question": "I am...",
+            "question_id": "q_activity",
+            "response_options": [
+                {
+                    "text": "Going to sleep in my bedroom",
+                    "icon": "person_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_naps"
+                },
+                {
+                    "text": "Awake for the day in the morning",
+                    "icon": "person_wake_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_evening_activity"
+                },
+                {
+                    "text": "Not ready to take survey",
+                    "icon": "x",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                }
+            ]
+        },
+        {
+            "question": "Primary activity 1hr before falling asleep?",
+            "question_id": "q_evening_activity",
+            "response_options": [
+                {
+                    "text": "Electronic device(s) use",
+                    "icon": "screens",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Reading paper book",
+                    "icon": "book_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Work or study",
+                    "icon": "person_laptop",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Eating",
+                    "icon": "cutlery",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Physical activity",
+                    "icon": "barbell",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Meditation / Prayer",
+                    "icon": "person_meditation",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Other calming routines",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance"
+                }
+            ]
+        },
+        {
+            "question": "Difficulties falling asleep last night?",
+            "question_id": "q_falling_asleep_disturbance",
+            "response_options": [
+                {
+                    "text": "Yes",
+                    "icon": "person_bed_sleep_disrupted",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason"
+                },
+                {
+                    "text": "No",
+                    "icon": "person_bed_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                }
+            ]
+        },
+        {
+            "question": "Main reason for difficulties falling asleep?",
+            "question_id": "q_falling_asleep_disturbance_reason",
+            "response_options": [
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_noise_location"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_falling_asleep_disturbance_noise_location",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason_noise_building_inside"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason_noise_building_inside"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason_noise_building_inside"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason_noise_building_outside"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_falling_asleep_disturbance_reason_noise_building_outside",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_falling_asleep_disturbance_reason_noise_building_inside",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_falling_asleep_disturbance_reason_noise_building_inside_people"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_falling_asleep_disturbance_reason_noise_building_inside_people",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disrupted"
+                }
+            ]
+        },
+        {
+            "question": "Was your sleep last night disrupted before wake time?",
+            "question_id": "q_sleep_disrupted",
+            "response_options": [
+                {
+                    "text": "No",
+                    "icon": "person_bed_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Yes - 1 time",
+                    "icon": "person_bed_sleep_disrupted",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_reason_1"
+                },
+                {
+                    "text": "Yes - 2 times",
+                    "icon": "person_bed_sleep_disrupted",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_1"
+                },
+                {
+                    "text": "Yes - 3 times or more",
+                    "icon": "person_bed_sleep_disrupted",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_1"
+                }
+            ]
+        },
+        {
+            "question": "Reason for disruption?",
+            "question_id": "q_sleep_disruption_1_reason_1",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_noise_location_1"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_1_noise_location_1",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_location_building_inside_1"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_location_building_inside_1"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_location_building_inside_1"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_location_building_outside_1"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_1_location_building_outside_1",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_1_location_building_inside_1",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_1_reason_noise_inside_building_people_1"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_1_reason_noise_inside_building_people_1",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Reason for earlier disruption?",
+            "question_id": "q_sleep_disruption_2_reason_1",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_noise_location_1"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_2_noise_location_1",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_1"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_1"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_1"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_outside_1"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_2_location_building_outside_1",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_2_location_building_inside_1",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_noise_inside_building_people_1"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_2_reason_noise_inside_building_people_1",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "Reason for later disruption?",
+            "question_id": "q_sleep_disruption_2_reason_2",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_noise_location_2"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_2_noise_location_2",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_2"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_2"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_inside_2"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_location_building_outside_2"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_2_location_building_outside_2",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_2_location_building_inside_2",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_2_reason_noise_inside_building_people_2"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_2_reason_noise_inside_building_people_2",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Reason for 1st disruption?",
+            "question_id": "q_sleep_disruption_3_reason_1",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_noise_location_1"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_3_noise_location_1",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_1"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_1"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_1"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_outside_1"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_outside_1",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_inside_1",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_1"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_1",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_2"
+                }
+            ]
+        },
+        {
+            "question": "Reason for 2nd disruption?",
+            "question_id": "q_sleep_disruption_3_reason_2",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_noise_location_2"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_3_noise_location_2",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_2"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_2"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_2"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_outside_2"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_outside_2",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_inside_2",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_2"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_2",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_3"
+                }
+            ]
+        },
+        {
+            "question": "Reason for 3rd disruption?",
+            "question_id": "q_sleep_disruption_3_reason_3",
+            "response_options": [
+                {
+                    "text": "Bathroom visit",
+                    "icon": "toilet",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Too hot",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Too cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Noise",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_noise_location_3"
+                },
+                {
+                    "text": "Light",
+                    "icon": "light_bright",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Air quality",
+                    "icon": "waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Trouble breathing",
+                    "icon": "illness_shortness_of_breath_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Pain / Illness",
+                    "icon": "illness_pain",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Nightmare",
+                    "icon": "person_sleep_bad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Negative thoughts",
+                    "icon": "person_head_thinking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Excitement",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "I forgot / Not sure",
+                    "icon": "text_question_mark",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Where is the noise coming from?",
+            "question_id": "q_sleep_disruption_3_noise_location_3",
+            "response_options": [
+                {
+                    "text": "Inside - Bedroom",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_3"
+                },
+                {
+                    "text": "Inside - Home",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_3"
+                },
+                {
+                    "text": "Neighbour's home / Indoor public spaces",
+                    "icon": "noise_indoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_inside_3"
+                },
+                {
+                    "text": "Outdoors",
+                    "icon": "space_outdoor",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_location_building_outside_3"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_outside_3",
+            "response_options": [
+                {
+                    "text": "Traffic",
+                    "icon": "vehicle_cars_two",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Airplane",
+                    "icon": "airplane",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": true,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Construction",
+                    "icon": "vehicle_excavator",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Weather",
+                    "icon": "cloud_rain_lighting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_talking",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Animals",
+                    "icon": "animal_pigeon",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What kind of noise?",
+            "question_id": "q_sleep_disruption_3_location_building_inside_3",
+            "response_options": [
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Fan(s)",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "People",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_3"
+                },
+                {
+                    "text": "Pets",
+                    "icon": "dog_cat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Music / Video / Speaker",
+                    "icon": "speaker",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "What type of noise?",
+            "question_id": "q_sleep_disruption_3_reason_noise_inside_building_people_3",
+            "response_options": [
+                {
+                    "text": "Talking / Shouting",
+                    "icon": "person_2_dialog_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Snoring",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Infant / Toddler noises",
+                    "icon": "baby_crying",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_settings_changed"
+                }
+            ]
+        },
+        {
+            "question": "Adjustment(s) due to disruption(s)?",
+            "question_id": "q_settings_changed",
+            "response_options": [
+                {
+                    "text": "Yes",
+                    "icon": "text_yes",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments"
+                },
+                {
+                    "text": "No",
+                    "icon": "text_no",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What did you adjust?",
+            "question_id": "q_adjustments",
+            "response_options": [
+                {
+                    "text": "Fan",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_fan"
+                },
+                {
+                    "text": "Air con",
+                    "icon": "air_conditioning_unit",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_air_con"
+                },
+                {
+                    "text": "Window(s)",
+                    "icon": "window_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_window"
+                },
+                {
+                    "text": "Door(s)",
+                    "icon": "door_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_door"
+                },
+                {
+                    "text": "Clothing / bedding",
+                    "icon": "clothing_bedding",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Multiple things",
+                    "icon": "option",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_fan"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the fan?",
+            "question_id": "q_adjustments_fan",
+            "response_options": [
+                {
+                    "text": "Turned it on",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Increased speed",
+                    "icon": "arrow_three_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Decreased speed",
+                    "icon": "arrow_three_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Changed position",
+                    "icon": "angle",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Changed oscillation",
+                    "icon": "arrow_round_left_and_right",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make the to air con?",
+            "question_id": "q_adjustments_air_con",
+            "response_options": [
+                {
+                    "text": "Turned it on",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Increased set point",
+                    "icon": "arrow_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Decreased set point",
+                    "icon": "arrow_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Increased fan speed",
+                    "icon": "arrow_three_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Decreased fan speed",
+                    "icon": "arrow_three_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Changed mode",
+                    "icon": "settings",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the window(s)?",
+            "question_id": "q_adjustments_window",
+            "response_options": [
+                {
+                    "text": "Opened",
+                    "icon": "window_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Closed",
+                    "icon": "window_closed",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the door(s)?",
+            "question_id": "q_adjustments_door",
+            "response_options": [
+                {
+                    "text": "Opened",
+                    "icon": "door_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Closed",
+                    "icon": "door_closed",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the fan?",
+            "question_id": "q_adjustments_multiple_fan",
+            "response_options": [
+                {
+                    "text": "Turned it on",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Increased speed",
+                    "icon": "arrow_three_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Decreased speed",
+                    "icon": "arrow_three_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Changed position",
+                    "icon": "angle",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Changed oscillation",
+                    "icon": "arrow_round_left_and_right",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_air_con"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the air con?",
+            "question_id": "q_adjustments_multiple_air_con",
+            "response_options": [
+                {
+                    "text": "Turned it on",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Increased set point",
+                    "icon": "arrow_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Decreased set point",
+                    "icon": "arrow_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Increased fan speed",
+                    "icon": "arrow_three_up",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Decreased fan speed",
+                    "icon": "arrow_three_down",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Changed mode",
+                    "icon": "settings",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_window"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the window(s)?",
+            "question_id": "q_adjustments_multiple_window",
+            "response_options": [
+                {
+                    "text": "Opened",
+                    "icon": "window_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_door"
+                },
+                {
+                    "text": "Closed",
+                    "icon": "window_closed",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_door"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_adjustments_multiple_door"
+                }
+            ]
+        },
+        {
+            "question": "What changes did you make to the door(s)?",
+            "question_id": "q_adjustments_multiple_door",
+            "response_options": [
+                {
+                    "text": "Opened",
+                    "icon": "door_open",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Closed",
+                    "icon": "door_closed",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_sensation_last_night"
+                }
+            ]
+        },
+        {
+            "question": "Rate your bedroom's thermal sensation throughout the night.",
+            "question_id": "q_thermal_sensation_last_night",
+            "response_options": [
+                {
+                    "text": "Cold",
+                    "icon": "snowflake",
+                    "icon_background_color": "#1229ab",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_last_night"
+                },
+                {
+                    "text": "Neutral",
+                    "icon": "thermometer",
+                    "icon_background_color": "#761E5F",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_last_night"
+                },
+                {
+                    "text": "Hot",
+                    "icon": "flame",
+                    "icon_background_color": "#D91212",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_last_night"
+                },
+                {
+                    "text": "Hot & Cold",
+                    "icon": "flame_snowflake_diagonal",
+                    "icon_background_color": "#000000",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_last_night"
+                }
+            ]
+        },
+        {
+            "question": "Last night, would you have preferred to be..",
+            "question_id": "q_thermal_preference_last_night",
+            "response_options": [
+                {
+                    "text": "Cooler",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_air_quality_last_night"
+                },
+                {
+                    "text": "No change",
+                    "icon": "emoticon_happy_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_air_quality_last_night"
+                },
+                {
+                    "text": "Warmer",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_air_quality_last_night"
+                }
+            ]
+        },
+        {
+            "question": "Last night, the air quality in your bedroom was...",
+            "question_id": "q_air_quality_last_night",
+            "response_options": [
+                {
+                    "text": "Good",
+                    "icon": "emoticon_happy_4",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_noise_level_last_night"
+                },
+                {
+                    "text": "Poor",
+                    "icon": "emoticon_sad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_noise_level_last_night"
+                }
+            ]
+        },
+        {
+            "question": "Last night, the sound level in your bedroom was...",
+            "question_id": "q_noise_level_last_night",
+            "response_options": [
+                {
+                    "text": "Comfortably quiet",
+                    "icon": "text_horizontal_line",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_last_night_air_dryness"
+                },
+                {
+                    "text": "Comfortably noisy",
+                    "icon": "sound_waves_medium",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_last_night_air_dryness"
+                },
+                {
+                    "text": "Uncomfortably quiet",
+                    "icon": "text_horizontal_line",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_last_night_air_dryness"
+                },
+                {
+                    "text": "Uncomfortably noisy",
+                    "icon": "sound_waves",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_last_night_air_dryness"
+                }
+            ]
+        },
+        {
+            "question": "Last night's bedroom air dryness level?",
+            "question_id": "q_last_night_air_dryness",
+            "response_options": [
+                {
+                    "text": "Too dry",
+                    "icon": "dust",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_quality"
+                },
+                {
+                    "text": "Comfortable",
+                    "icon": "emoticon_happy_4",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_quality"
+                },
+                {
+                    "text": "Too humid",
+                    "icon": "drops",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleep_quality"
+                }
+            ]
+        },
+        {
+            "question": "How would you rate your overall sleep quality?",
+            "question_id": "q_sleep_quality",
+            "response_options": [
+                {
+                    "text": "Very good",
+                    "icon": "emoticon_happy_4",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_morning"
+                },
+                {
+                    "text": "Fairly good",
+                    "icon": "emoticon_neutral",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_morning"
+                },
+                {
+                    "text": "Fairly bad",
+                    "icon": "emoticon_sad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_morning"
+                },
+                {
+                    "text": "Very bad",
+                    "icon": "emoticon_sad",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_morning"
+                }
+            ]
+        },
+        {
+            "question": "How sleepy are you right now?",
+            "question_id": "q_sleepiness_morning",
+            "response_options": [
+                {
+                    "text": "Extremely Alert",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very Alert",
+                    "icon": "emoticon_happy_4",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Alert",
+                    "icon": "emoticon_happy_5",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Neither alert or sleepy",
+                    "icon": "emoticon_neutral",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Sleepy",
+                    "icon": "emoticon_yawn",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very sleepy",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Extremely sleepy",
+                    "icon": "emoticon_sleep_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                }
+            ]
+        },
+        {
+            "question": "Did you take any naps today?",
+            "question_id": "q_naps",
+            "response_options": [
+                {
+                    "text": "Yes",
+                    "icon": "text_yes",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_nap_duration"
+                },
+                {
+                    "text": "No",
+                    "icon": "text_no",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_illness"
+                }
+            ]
+        },
+        {
+            "question": "For how long?",
+            "question_id": "q_nap_duration",
+            "response_options": [
+                {
+                    "text": "<30 mins",
+                    "icon": "clock",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_illness"
+                },
+                {
+                    "text": "30 - 59 mins",
+                    "icon": "clock",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_illness"
+                },
+                {
+                    "text": "1-2 hours",
+                    "icon": "clock",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_illness"
+                },
+                {
+                    "text": ">2 hours",
+                    "icon": "clock",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_illness"
+                }
+            ]
+        },
+        {
+            "question": "Compared to a normal day, more or less stress or illness symptoms?",
+            "question_id": "q_illness",
+            "response_options": [
+                {
+                    "text": "Less",
+                    "icon": "text_less",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Same",
+                    "icon": "text_same",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "More - Stress",
+                    "icon": "person_stress",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_stressors"
+                },
+                {
+                    "text": "More - Illness",
+                    "icon": "illness_sick",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_symptoms"
+                }
+            ]
+        },
+        {
+            "question": "Which primary symptom are you experiencing?",
+            "question_id": "q_symptoms",
+            "response_options": [
+                {
+                    "text": "Fever or chills",
+                    "icon": "illness_fever_chills",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Cough or sore throat",
+                    "icon": "illness_cough_sore_throat",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Shortness of breath",
+                    "icon": "illness_shortness_of_breath",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Fatigue or muscle aches",
+                    "icon": "illness_fatigue",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Headache",
+                    "icon": "illness_head_ache",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Blocked / Runny nose",
+                    "icon": "person_blow_nose",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Loss of taste or smell",
+                    "icon": "illness_taste_smell_loss",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Nausea, vomiting, or diarrhea",
+                    "icon": "illness_vomiting",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Sunburn",
+                    "icon": "illness_sunburn_hand",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                }
+            ]
+        },
+        {
+            "question": "Most significant stressor?",
+            "question_id": "q_stressors",
+            "response_options": [
+                {
+                    "text": "Work / Study",
+                    "icon": "person_laptop_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Family",
+                    "icon": "person_group_3_roof_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Relationship",
+                    "icon": "person_relationship",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                },
+                {
+                    "text": "Other",
+                    "icon": "text_other",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances"
+                }
+            ]
+        },
+        {
+            "question": "In the last 5 hours, have you consumed alcohol or caffeine?",
+            "question_id": "q_substances",
+            "response_options": [
+                {
+                    "text": "No",
+                    "icon": "text_no",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "Yes, caffeine",
+                    "icon": "beverage_energy_drink_coffee",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_caffeine"
+                },
+                {
+                    "text": "Yes, alcohol",
+                    "icon": "beverage_alcohol",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_alcohol"
+                },
+                {
+                    "text": "Yes, both",
+                    "icon": "beverage_energy_drink_coffee_alcohol",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_both_caffeine"
+                }
+            ]
+        },
+        {
+            "question": "How many servings of caffeine?",
+            "question_id": "q_substances_servings_caffeine",
+            "response_options": [
+                {
+                    "text": "<1 serving",
+                    "icon": "beverage_coffee_half_cup",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "1 serving",
+                    "icon": "beverage_coffee",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "2 servings",
+                    "icon": "beverage_energy_drink_coffee",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "3+ servings",
+                    "icon": "beverage_energy_drink_coffee_3_servings",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                }
+            ]
+        },
+        {
+            "question": "How many servings of alcohol?",
+            "question_id": "q_substances_servings_alcohol",
+            "response_options": [
+                {
+                    "text": "<1 serving",
+                    "icon": "beverage_alcohol_beer_half",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "1 serving",
+                    "icon": "beverage_alcohol_beer",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "2 servings",
+                    "icon": "beverage_alcohol_beer_wine",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "3+ servings",
+                    "icon": "beverage_alcohol",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                }
+            ]
+        },
+        {
+            "question": "How many servings of caffeine?",
+            "question_id": "q_substances_servings_both_caffeine",
+            "response_options": [
+                {
+                    "text": "<1 serving",
+                    "icon": "beverage_coffee_half_cup",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_both_alcohol"
+                },
+                {
+                    "text": "1 serving",
+                    "icon": "beverage_coffee",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_both_alcohol"
+                },
+                {
+                    "text": "2 servings",
+                    "icon": "beverage_energy_drink_coffee",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_both_alcohol"
+                },
+                {
+                    "text": "3+ servings",
+                    "icon": "beverage_energy_drink_coffee_3_servings",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_substances_servings_both_alcohol"
+                }
+            ]
+        },
+        {
+            "question": "How many servings of alcohol?",
+            "question_id": "q_substances_servings_both_alcohol",
+            "response_options": [
+                {
+                    "text": "<1 serving",
+                    "icon": "beverage_alcohol_beer_half",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "1 serving",
+                    "icon": "beverage_alcohol_beer",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "2 servings",
+                    "icon": "beverage_alcohol_beer_wine",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                },
+                {
+                    "text": "3+ servings",
+                    "icon": "beverage_alcohol",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_clothes"
+                }
+            ]
+        },
+        {
+            "question": "What clothes are you wearing?",
+            "question_id": "q_clothes",
+            "response_options": [
+                {
+                    "text": "Light",
+                    "icon": "clothes_underwear",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con"
+                },
+                {
+                    "text": "Medium",
+                    "icon": "clothes_shirt_pants_shorts",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con"
+                },
+                {
+                    "text": "Heavy",
+                    "icon": "clothes_shirt_long_sleeves_pants",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con"
+                }
+            ]
+        },
+        {
+            "question": "Air con configuration or set point for sleep?",
+            "question_id": "q_setting_air_con",
+            "response_options": [
+                {
+                    "text": "No air con",
+                    "icon": "x",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                },
+                {
+                    "text": "Below 21°C ",
+                    "icon": "thermometer",
+                    "icon_background_color": "#0060FF",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "22°C",
+                    "icon": "thermometer",
+                    "icon_background_color": "#00C0FF",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "23°C",
+                    "icon": "thermometer",
+                    "icon_background_color": "#20FFFF",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "24°C",
+                    "icon": "thermometer",
+                    "icon_background_color": "#A0FF40",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "25°C",
+                    "icon": "thermometer",
+                    "icon_background_color": "#FFFF00",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "26°C",
+                    "icon": "thermometer",
+                    "icon_background_color": "#FF8000",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                },
+                {
+                    "text": "27°C or above",
+                    "icon": "thermometer",
+                    "icon_background_color": "#d91212",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_con_fan"
+                }
+            ]
+        },
+        {
+            "question": "Air con fan setting?",
+            "question_id": "q_setting_air_con_fan",
+            "response_options": [
+                {
+                    "text": "Auto",
+                    "icon": "auto",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                },
+                {
+                    "text": "Low",
+                    "icon": "fan_small",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                },
+                {
+                    "text": "Medium",
+                    "icon": "fan_medium",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                },
+                {
+                    "text": "High",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_fan"
+                }
+            ]
+        },
+        {
+            "question": "If using a fan, what setting for sleep?",
+            "question_id": "q_setting_fan",
+            "response_options": [
+                {
+                    "text": "No fan",
+                    "icon": "x",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_purifier"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_purifier"
+                },
+                {
+                    "text": "Low",
+                    "icon": "fan_small",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_purifier"
+                },
+                {
+                    "text": "Medium",
+                    "icon": "fan_medium",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_purifier"
+                },
+                {
+                    "text": "High",
+                    "icon": "fan",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_setting_air_purifier"
+                }
+            ]
+        },
+        {
+            "question": "If using an air purifier, what settings for sleep?",
+            "question_id": "q_setting_air_purifier",
+            "response_options": [
+                {
+                    "text": "No air purifier",
+                    "icon": "x",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_evening"
+                },
+                {
+                    "text": "Turned it off",
+                    "icon": "off",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_evening"
+                },
+                {
+                    "text": "Lowest speed",
+                    "icon": "arrow_one_right",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_evening"
+                },
+                {
+                    "text": "Medium speed",
+                    "icon": "arrow_two_right",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_evening"
+                },
+                {
+                    "text": "Highest speed",
+                    "icon": "arrow_three_right",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_thermal_preference_evening"
+                }
+            ]
+        },
+        {
+            "question": "Right now, would you prefer to be...?",
+            "question_id": "q_thermal_preference_evening",
+            "response_options": [
+                {
+                    "text": "Cooler",
+                    "icon": "snowflake",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_evening"
+                },
+                {
+                    "text": "No Change",
+                    "icon": "emoticon_happy_3",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_evening"
+                },
+                {
+                    "text": "Warmer",
+                    "icon": "flame",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": "q_sleepiness_evening"
+                }
+            ]
+        },
+        {
+            "question": "How sleepy are you right now?",
+            "question_id": "q_sleepiness_evening",
+            "response_options": [
+                {
+                    "text": "Extremely Alert",
+                    "icon": "emoticon_happy",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very Alert",
+                    "icon": "emoticon_happy_4",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Alert",
+                    "icon": "emoticon_happy_5",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Neither alert or sleepy",
+                    "icon": "emoticon_neutral",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Sleepy",
+                    "icon": "emoticon_yawn",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Very sleepy",
+                    "icon": "emoticon_sleep",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                },
+                {
+                    "text": "Extremely sleepy",
+                    "icon": "emoticon_sleep_2",
+                    "icon_background_color": "#F1A62E",
+                    "use_sf_symbols": false,
+                    "sf_symbols_color": "#000000",
+                    "next_question_id": ""
+                }
+            ]
+        }
+    ]
+}
