@@ -1,6 +1,6 @@
 {
     "survey_name": "Sleep (CBE, v1)",
-    "survey_id": "cbe_2025_mattress_pad_study_1",
+    "survey_id": "cbe_2025_mattress_pad_study_v2",
     "survey": [
         {
             "question": "I am...",
@@ -21,14 +21,6 @@
                     "use_sf_symbols": false,
                     "sf_symbols_color": "#000000",
                     "next_question_id": "q_falling_asleep_disturbance"
-                },
-                {
-                    "text": "Not ready to take survey",
-                    "icon": "x",
-                    "icon_background_color": "#F1A62E",
-                    "use_sf_symbols": false,
-                    "sf_symbols_color": "#000000",
-                    "next_question_id": ""
                 }
             ]
         },
