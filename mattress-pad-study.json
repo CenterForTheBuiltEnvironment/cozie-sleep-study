@@ -1,6 +1,6 @@
 {
     "survey_name": "Sleep (CBE, v1)",
-    "survey_id": "cbe-2025-mattress-pad-study-v1",
+    "survey_id": "cbe_2025_mattress_pad_study_1",
     "survey": [
         {
             "question": "I am...",
