@@ -908,7 +908,7 @@
         },
         {
             "question": "What changes did you make to the heating pad?",
-            "question_id": "q_adjustments_heat_pad",
+            "question_id": "q_adjustments_heating_pad",
             "response_options": [
                 {
                     "text": "Turned it on",
