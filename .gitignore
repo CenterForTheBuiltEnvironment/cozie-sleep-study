@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual Environment
+venv/
+.venv/
+
+# Backup files
+*~
+*.bak
+*.swp
+*.tmp
